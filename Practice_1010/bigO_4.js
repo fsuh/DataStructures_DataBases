@@ -8,4 +8,4 @@ function logUpTo(n)
 
 console.log(logUpTo(11))
 
-O(n)
+//O(n)

@@ -7,4 +7,4 @@ function logAtLeast5(n)
 
 console.log(logAtLeast5(10))
 
-O(n)
+//O(n)
