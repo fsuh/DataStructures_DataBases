@@ -9,7 +9,7 @@ function eatBreakfast(){
 
 function cookFood(){
     let items = ["Oatmeal", "Eggs", "Protein Shake"]
-    return items[Math.floor(Math.random()*items.length)];
+    console.log( items[Math.floor(Math.random()*items.length)]);
 }
 function wakeUp() {
     takeShower()

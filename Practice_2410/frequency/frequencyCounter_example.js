@@ -4,7 +4,13 @@
 //The frequency of values must be the same.
 
 
-
+function same (arr1, arr2){
+    if(arr1.length !== arr2.length){
+        console.log(false)
+    } else if( arr2.every(arr1.forEach(item => item**2))){
+        console.log(true)
+    }
+}
 
 
 
