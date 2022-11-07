@@ -10,7 +10,15 @@ function power(base, exponent) {
 
 }
 
+
+
+//function power(base, exponent){
+//    let result = 1;
+//    for(i=0; i < exponent; i++){
+//        result = result*base
+//    }
+//    return result
+//}
+
 console.log (power(2, 0))
-
-
 // power(2,0) // 1// power(2,2) // 4

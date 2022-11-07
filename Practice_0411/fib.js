@@ -5,8 +5,13 @@
 //https://en.wikipedia.org/wiki/Fibonacci_number
 
 function fib(n) {
-  
+    if(n < 2){
+        return n
+    } else {
+        return fib(n-1)+ fib(n-2)
+    }
+    
 }
 
-// fib(4) // 3
-// fib(10) // 55
+console.log(fib(4)) // 3
+console.log(fib(10)) // 55
