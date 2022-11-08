@@ -3,8 +3,7 @@ import './App.css';
 
 class App extends Component {
   state={
-    text:"",
-    result: ''
+    text:""
   }
   textHandle = event =>{
     this.setState({
@@ -34,7 +33,7 @@ class App extends Component {
       <main className='App-main'>
         <input  type="text" placeholder='Text here' value={this.state.text} onChange={this.textHandle}/>
         <button type="submit" className='btn' onClick={this.checkHandle}>Check</button>
-        <p className='result'>Is {this.state.text} a Palindrome?,  {this.state.result}</p>
+        <p className='result'>{this.state.text === true? "is Palindrom": "is not Palindrom"}</p>
       </main> 
     </div>
 
