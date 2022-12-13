@@ -7,11 +7,11 @@
 // Time complexity - O(n)
 
 
-const validAnagram = (stringA, StringB) =>{
-    const stringAarray = stringA.split(" ")
+const validAnagram = (stringA, stringB) =>{
+    return stringA.split('').sort().join('')===stringB.split('').sort().join('');
 }
 
-validAnagram('', '') // true
-validAnagram('aaz', 'zza') // false
-validAnagram('anagram', 'nagaram') // true
-validAnagram("rat","car") // false) // false
+console.log(validAnagram('', '')) // true
+console.log(validAnagram('aaz', 'zza')) // false
+console.log(validAnagram('anagram', 'nagaram'))// true
+console.log(validAnagram("rat","car")) // false) // false

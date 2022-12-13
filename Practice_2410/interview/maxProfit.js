@@ -2,6 +2,13 @@
 //You have only one chance to buy and then sell.
 //What’s the maximum profit you can obtain? (Note: you have to buy first and then sell)
 
+const maxProfit = (arr) =>{
+    console.log(Math.max(...arr)-(Math.min(...arr)))
+
+}
+
+
+ 
 
 maxProfit([1, 2, 3]) // 2 (buying at 1 and selling at 3)
 maxProfit([3, 2, 1]) // 2 (no buys)
